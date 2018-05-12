@@ -1,0 +1,12 @@
+[
+  {
+    "name": "机器人",
+    "script": "./index.js",
+    "watch": "./index.js",
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "error_file": "./logs/机器人-err.log",
+    "out_file": "./logs/机器人-out.log"
+  }
+]

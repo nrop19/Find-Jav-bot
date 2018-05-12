@@ -1,0 +1,23 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram 番号机器人",
+  "scripts": {
+    "test": "pm2 start pm2.json && pm2 logs",
+    "kill": "pm2 kill",
+    "logs": "pm2 logs"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "canvas": "^1.6.10",
+    "cheerio": "^1.0.0-rc.2",
+    "echarts": "^4.0.4",
+    "koa": "^2.5.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "pm2": "^2.10.2"
+  },
+  "author": "com.nrop19@gmail.com",
+  "license": "MIT"
+}
