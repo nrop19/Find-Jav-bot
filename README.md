@@ -9,5 +9,5 @@ Telegram 番号机器人 源码
 - **在index.js的第二行填入你的Telegram机器人Token**
 - 在命令行工具使用cd命令进入源码目录
 - 执行命令
-  - npm install
+  - npm install
   - npm run test
