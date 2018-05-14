@@ -1,5 +1,6 @@
 /** Telegram机器人的Token */
 const token = '机器人Token';
+const robotName = '@xxxx';
 
 
 
@@ -99,7 +100,7 @@ bot.onText(/\/av (.+)/, async (msg, match) => {
                 return (i + 1) < max;
             });
             if (!isPrivate && result.magnet.length > max) {
-                message += '\n-----------\n在群聊中发车，还有 ' + (result.magnet.length - max) + ' 个Magnet链接没有显示\n与 @find_jav_bot 机器人单聊可以显示所有链接';
+                message += `\n-----------\n在群聊中发车，还有 ${result.magnet.length - max} 个Magnet链接没有显示\n与 ${robotName} 机器人单聊可以显示所有链接`;
             }
             bot.sendMessage(chatId, message);
         } else {
